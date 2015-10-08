@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace GameOfLife
 {
-    class Program
+    public class Cell
     {
-        static void Main(string[] args)
-        {
-            //World.createWorld();
-        }
+   
     }
 }
