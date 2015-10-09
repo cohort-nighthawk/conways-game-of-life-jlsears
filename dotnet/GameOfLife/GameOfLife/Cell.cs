@@ -8,6 +8,13 @@ namespace GameOfLife
 {
     public class Cell
     {
-   
+        private bool living;
+
+        public bool Living { get; set; }  
+
+        public Cell()
+        {
+            this.Living = true;
+        }
     }
 }
